@@ -8,7 +8,7 @@ const Hero = () => {
         {/* Using user's actual landscaping image */}
         <div className="hero-image">
           <img 
-            src="/src/images/Lawn-Care01.jpg" 
+            src="/images/Lawn-Care01.jpg" 
             alt="Professional lawn care services - lush green grass and well-maintained landscape"
           />
           <div className="hero-overlay"></div>

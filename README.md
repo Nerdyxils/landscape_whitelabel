@@ -86,12 +86,15 @@ The color scheme is defined in CSS variables in `src/index.css`:
 }
 ```
 
-### Images
+## 🖼️ **Images**
 
-Replace placeholder images with actual project photos:
-- Hero background image in `Hero.jsx`
-- Portfolio before/after images in `Portfolio.jsx`
-- Client testimonial photos in `Testimonials.jsx`
+The project uses the following images:
+- `Lawn-Care01.jpg` - Hero background and lawn care services
+- `lawn-care02.jpg` - Garden design services and portfolio
+- `hardscape01.jpg` - Hardscaping services and portfolio
+- `hardscape02.jpg` - Irrigation services and portfolio
+
+**Important**: Images are stored in the `public/images/` folder for proper deployment. When adding new images, place them in this folder and reference them as `/images/filename.jpg` in your components.
 
 ### Content
 

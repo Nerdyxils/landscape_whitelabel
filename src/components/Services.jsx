@@ -9,7 +9,7 @@ const Services = () => {
       title: 'Lawn Care & Maintenance',
       description: 'Professional lawn care services including mowing, edging, fertilization, and seasonal maintenance to keep your grass healthy and beautiful year-round.',
       features: ['Regular mowing & edging', 'Fertilization & weed control', 'Seasonal clean-up', 'Irrigation maintenance'],
-      image: '/src/images/Lawn-Care01.jpg'
+      image: '/images/Lawn-Care01.jpg'
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const Services = () => {
       title: 'Garden Design & Installation',
       description: 'Transform your outdoor space with custom garden designs that reflect your style and create a welcoming environment for family and guests.',
       features: ['Custom garden planning', 'Plant selection & installation', 'Seasonal color displays', 'Garden maintenance'],
-      image: '/src/images/lawn-care02.jpg'
+      image: '/images/lawn-care02.jpg'
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const Services = () => {
       title: 'Hardscaping & Structures',
       description: 'Build lasting outdoor structures including patios, walkways, retaining walls, and outdoor living spaces that enhance your property value.',
       features: ['Patios & walkways', 'Retaining walls', 'Outdoor kitchens', 'Fire pits & seating areas'],
-      image: '/src/images/hardscape01.jpg'
+      image: '/images/hardscape01.jpg'
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ const Services = () => {
       title: 'Irrigation & Water Management',
       description: 'Smart irrigation systems and water management solutions that conserve water while keeping your landscape lush and healthy throughout all seasons.',
       features: ['Smart irrigation systems', 'Drip irrigation installation', 'Water conservation design', 'System maintenance & repair'],
-      image: '/src/images/hardscape02.jpg'
+      image: '/images/hardscape02.jpg'
     }
   ];
 

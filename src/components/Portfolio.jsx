@@ -10,8 +10,8 @@ const Portfolio = () => {
       category: 'lawn-care',
       title: 'Complete Lawn Transformation',
       location: 'Residential - North District',
-      beforeImage: '/src/images/Lawn-Care01.jpg',
-      afterImage: '/src/images/lawn-care02.jpg',
+      beforeImage: '/images/Lawn-Care01.jpg',
+      afterImage: '/images/lawn-care02.jpg',
       description: 'Transformed a neglected lawn into a lush, healthy green space with proper irrigation and maintenance.',
       services: ['Lawn Care', 'Irrigation', 'Fertilization']
     },
@@ -20,8 +20,8 @@ const Portfolio = () => {
       category: 'hardscaping',
       title: 'Modern Hardscape Installation',
       location: 'Residential - Luxury Home',
-      beforeImage: '/src/images/hardscape01.jpg',
-      afterImage: '/src/images/hardscape02.jpg',
+      beforeImage: '/images/hardscape01.jpg',
+      afterImage: '/images/hardscape02.jpg',
       description: 'Created a stunning outdoor living space with custom stone work, modern design, and functional layout.',
       services: ['Hardscaping', 'Patio Design', 'Outdoor Structures']
     },
@@ -30,8 +30,8 @@ const Portfolio = () => {
       category: 'lawn-care',
       title: 'Professional Lawn Maintenance',
       location: 'Commercial - Office Complex',
-      beforeImage: '/src/images/Lawn-Care01.jpg',
-      afterImage: '/src/images/lawn-care02.jpg',
+      beforeImage: '/images/Lawn-Care01.jpg',
+      afterImage: '/images/lawn-care02.jpg',
       description: 'Maintained pristine lawn appearance for commercial property with regular care and seasonal treatments.',
       services: ['Lawn Care', 'Maintenance', 'Seasonal Care']
     },
@@ -40,8 +40,8 @@ const Portfolio = () => {
       category: 'hardscaping',
       title: 'Outdoor Living Space Design',
       location: 'Residential - Garden District',
-      beforeImage: '/src/images/hardscape01.jpg',
-      afterImage: '/src/images/hardscape02.jpg',
+      beforeImage: '/images/hardscape01.jpg',
+      afterImage: '/images/hardscape02.jpg',
       description: 'Designed and built a complete outdoor entertainment area with fire pit, seating, and landscaping.',
       services: ['Hardscaping', 'Landscape Design', 'Outdoor Living']
     }
