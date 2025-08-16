@@ -1,0 +1,65 @@
+/* App-specific styles */
+.App {
+  min-height: 100vh;
+}
+
+main {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-green);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-green-dark);
+}
+
+/* Focus styles for accessibility */
+*:focus {
+  outline: 2px solid var(--primary-green);
+  outline-offset: 2px;
+}
+
+/* Loading states */
+.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Error states */
+.error {
+  color: #ef4444;
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  padding: 0.75rem;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+}
+
+/* Success states */
+.success {
+  color: var(--primary-green);
+  background-color: var(--secondary-green);
+  border: 1px solid var(--primary-green);
+  border-radius: var(--border-radius);
+  padding: 0.75rem;
+  margin: 1rem 0;
+}
